@@ -1,4 +1,28 @@
-<ion-header [translucent]="true">
+<ion-app>
+
+
+  <ion-page class="ion-page" id="main-content" >
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-toggle>
+            <ion-button>
+              <ion-icon slot="icon-only" name="menu"></ion-icon>
+            </ion-button>
+          </ion-menu-toggle>
+        </ion-buttons>
+        <ion-title>Tab 2</ion-title>
+      </ion-toolbar>
+    </ion-header>
+      <ion-content class="ion-padding" >      
+      <h1>Tab 2</h1>
+      <p>We're still trying to figure out what this app does.</p>
+    </ion-content>
+  </ion-page>
+</ion-app>
+
+<ion-menu-controller></ion-menu-controller>
+<!--<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
       Tab 2
@@ -15,3 +39,4 @@
 
   <app-explore-container name="Tab 2 page"></app-explore-container>
 </ion-content>
+-->

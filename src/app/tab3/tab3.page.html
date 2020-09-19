@@ -1,4 +1,33 @@
-<ion-header [translucent]="true">
+<ion-app>
+
+
+  <ion-page class="ion-page" id="main-content" >
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-toggle>
+            <ion-button>
+              <ion-icon slot="icon-only" name="menu"></ion-icon>
+            </ion-button>
+          </ion-menu-toggle>
+        </ion-buttons>
+        <ion-title>Contact</ion-title>
+      </ion-toolbar>
+    </ion-header>
+      <ion-content class="ion-padding" >      
+      <h1>Mikko Karhavirta</h1>
+      <p> 
+        Address:<br><br>
+        tel.<br><br>
+        e-mail: 
+        <a href = "mailto:mikko.karhavirta@student.laurea.fi">mikko.karhavirta<br>@student.laurea.fi</a><br>
+        </p>
+    </ion-content>
+  </ion-page>
+</ion-app>
+
+<ion-menu-controller></ion-menu-controller>
+<!--<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
       Tab 3
@@ -15,3 +44,4 @@
 
   <app-explore-container name="Tab 3 page"></app-explore-container>
 </ion-content>
+-->
